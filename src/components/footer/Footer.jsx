@@ -24,10 +24,10 @@ const Footer = () => {
                 </p>
             </div>
             <div className="flex flex-col justify-center items-center md:items-start  md:justify-start h-full   ">
-                <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1.15rem] ">
+                <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1rem] ">
                 {footer("aboutUs")}
                 </h3>
-                <div className="text-[#b2b2b2] text-center md:text-left text-lg flex flex-col mt-4 gap-2">
+                <div className="text-[#b2b2b2] text-center md:text-left text-[1rem] flex flex-col mt-4 gap-2">
                     {
                         navArray.map((item, index) => (
                             <Link className="hover:text-[#f39900]" href={item.path} key={index}>{item.title}</Link>
@@ -36,10 +36,10 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center md:items-start  md:justify-start h-full   ">
-            <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1.15rem] ">
+            <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1rem] ">
                 {footer("services")}
                 </h3>
-                <div className=" text-[#b2b2b2] text-center md:text-left text-lg flex flex-col mt-4 gap-2">
+                <div className=" text-[#b2b2b2] text-center md:text-left text-[1rem] flex flex-col mt-4 gap-2">
                     {
                        servicesArray.map((item, index) => (
                             <Link className="hover:text-[#f39900]" href={"#"} key={index}>{item.title}</Link>
@@ -48,10 +48,10 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center md:items-start  md:justify-start h-full ">
-                <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1.15rem] ">
+                <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1rem] ">
                 {footer("products")}
                 </h3>
-                <div className="text-[#b2b2b2] text-center md:text-left text-lg flex flex-col mt-4 gap-2">
+                <div className="text-[#b2b2b2] text-center md:text-left text-[1rem] flex flex-col mt-4 gap-2">
                     {
                         allProducts.map((item, index) => (
                             <Link className="hover:text-[#f39900]" href={"#"} key={index}>{item.title}</Link>
@@ -60,16 +60,16 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center md:items-start  md:justify-start h-full   ">
-                <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1.15rem] ">
+                <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1rem] ">
                     {footer("contact")}
                 </h3>
                 <div className="text-[#b2b2b2] text-center md:text-left text-lg flex flex-col mt-4 gap-2">
                
-                <p className="text-[#b2b2b2] mx-8 md:mx-0 text-center md:text-left text-lg ">
+                <p className="text-[#b2b2b2] mx-8 md:mx-0 text-center md:text-left text-[1rem] ">
                   {footer("contactSubtitle")}    
                 </p>
                 </div>
-                <div className="text-[#b2b2b2] text-center md:text-left text-lg flex flex-col mt-4 gap-2">
+                <div className="text-[#b2b2b2] text-center md:text-left text-[1rem] flex flex-col mt-4 gap-2">
                     <h3 className=" text-white  font-bold text-[.875rem] md:text-[1rem] ">
                     {footer("consultation")}
                     </h3>  
@@ -78,7 +78,7 @@ const Footer = () => {
                     <p>E  <a className="hover:text-[#f39900]" href="mailto:sales@ise.de">sales@ise.de</a></p>
                 </div>
 
-                <div className="text-[#b2b2b2] text-center md:text-left text-lg flex flex-col mt-4 gap-2">
+                <div className="text-[#b2b2b2] text-center md:text-left text-[1rem] flex flex-col mt-4 gap-2">
                     <h3 className=" text-white  font-bold text-[.875rem] md:text-[1rem] ">
                         {footer("General")}
                     </h3>  
@@ -90,7 +90,7 @@ const Footer = () => {
 
             </div>
             <div className="flex  flex-col justify-center items-center md:items-start  md:justify-start h-full  ">
-                <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1.15rem] ">
+                <h3 className="text-white uppercase font-bold text-[.875rem] md:text-[1rem] ">
                     {footer("follow")}
                 </h3>
                 <div className=" text-[#b2b2b2] text-[1.5rem] grid grid-cols-5 md:grid-cols-5 mt-4 gap-4">
@@ -125,7 +125,7 @@ const Footer = () => {
         </div>
         <div className="max-w-[90rem]  mx-auto py-[2.5rem] flex-wrap flex flex-col md:flex-row justify-between items-center gap-8 border-[#b2b2b2]  border-t-[.5px] border-dotted  ">
             <div className="flex justify-center  md:justify-end flex-wrap items-center gap-5">
-                <p className="text-white text-[.875rem] text-center md:text-left md:text-[1.15rem] font-thin  ">
+                <p className="text-white text-[.875rem] text-center md:text-left md:text-[1rem] font-thin  ">
                     {footer("copyright")}
                 </p>
              
