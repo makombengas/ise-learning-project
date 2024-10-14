@@ -1,0 +1,447 @@
+{
+  "Home": { "hello": "Hello",
+    "welcome": "Welcome to my app"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "LanguageSwitcher": {
+    "switchTo": "Switch to {locale}"
+  },
+
+  "button":{
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "download": "Download",
+    "getStarted": "Get started",
+    "jobOffers": "Job offers",
+    "applyNow": "Apply now",
+    "signUp": "Sign up",
+    "subscribe": "Subscribe"
+  },
+  
+  "Nav": {
+  "nav": [
+    {
+      "id": 0,
+      "title": "Products",
+      "path": "/products",
+      "subNav": [
+        {
+          "id": 0,
+          "title": "SMART CONNECT Series",
+          "path": "/smart-connect-series"
+        },
+        {
+          "id": 1,
+          "title": "SMART APP KNX Series",
+          "path": "/smart-app-knx-series"
+        },
+        {
+          "id": 2,
+          "title": "KNX RF",
+          "path": "/knx-rf"
+        },
+        {
+          "id": 3,
+          "title": "Ise CO2 Signal",
+          "path": "/ise-co2-signal"
+        },
+        {
+          "id": 4,
+          "title": "Ordering Information",
+          "path": "/ordering-information"
+        },
+        {
+          "id": 5,
+          "title": "Archive",
+          "path": "/archive"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Services",
+      "path": "/services",
+      "subNav": [
+        {
+          "id": 0,
+          "title": "Software Development",
+          "path": "/software-development"
+        },
+        {
+          "id": 1,
+          "title": "Electronics Development",
+          "path": "/electronics-development"
+        },
+        {
+          "id": 2,
+          "title": "Building Automation",
+          "path": "/building-automation"
+        },
+        {
+          "id": 3,
+          "title": "Manufacturing and Distribution",
+          "path": "/manufacturing-and-distribution"
+        },
+        {
+          "id": 4,
+          "title": "Satisfied Customers",
+          "path": "/satisfied-customers"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Company",
+      "path": "/company",
+      "subNav": [
+        {
+          "id": 0,
+          "title": "Ise",
+          "path": "/ise"
+        },
+        {
+          "id": 1,
+          "title": "Company Culture",
+          "path": "/company-culture"
+        },
+        {
+          "id": 2,
+          "title": "Agility and Quality",
+          "path": "/agility-and-quality"
+        },
+        {
+          "id": 3,
+          "title": "Partners and Certificates",
+          "path": "/partners-and-certificates"
+        },
+        {
+          "id": 4,
+          "title": "Milestones",
+          "path": "/milestones"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Careers",
+      "path": "/careers",
+      "subNav": [
+        {
+          "id": 0,
+          "title": "Job Openings",
+          "path": "/job-openings"
+        },
+        {
+          "id": 1,
+          "title": "Training and Studies",
+          "path": "/training-and-studies"
+        },
+        {
+          "id": 2,
+          "title": "Family Friendliness",
+          "path": "/family-friendliness"
+        },
+        {
+          "id": 3,
+          "title": "Employee Offers",
+          "path": "/employee-offers"
+        },
+        {
+          "id": 4,
+          "title": "Living in Oldenburg",
+          "path": "/living-in-oldenburg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "News",
+      "path": "/news",
+      "subNav": [
+        {
+          "id": 0,
+          "title": "Product News",
+          "path": "/product-news"
+        },
+        {
+          "id": 1,
+          "title": "Company News",
+          "path": "/company-news"
+        },
+        {
+          "id": 2,
+          "title": "Events",
+          "path": "/events"
+        },
+        {
+          "id": 3,
+          "title": "Newsletter",
+          "path": "/newsletter"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Service",
+      "path": "/service",
+      "subNav": [
+        {
+          "id": 0,
+          "title": "Support",
+          "path": "/support"
+        },
+        {
+          "id": 1,
+          "title": "Downloads",
+          "path": "/downloads"
+        },
+        {
+          "id": 2,
+          "title": "Customer Interviews",
+          "path": "/customer-interviews"
+        },
+        {
+          "id": 3,
+          "title": "Webinars",
+          "path": "/webinars"
+        }
+      ]
+    }
+  ]
+},
+  "TopBar": {
+    "won": "WE WON !",
+    "smart": "Smart Home GERMANY Award 2024",
+    "button": "Read more"
+  },
+  "BannerCarousel": {
+    "carousel":[
+      {
+        "id": 0,
+        "title": "NEW UPDATE: REMOTE ACCESS DONE BETTER.",
+        "subtitle": "latest remote access solution offers enhanced security, seamless connectivity, and user-friendly interfaces, ensuring efficient management of devices and systems from anywhere. Experience reliability and performance like never before.",
+        "btn": "Discover",
+        "color": "#E3E2DE",
+        "promo":"Update",
+        "image": "/images/csm.png",
+        "bgImage": "/images/car_charger.png",
+        "neuBgImage": "/images/car.png"
+      },
+      {
+        "id": 1,
+        "title": "THE NEXT GENERATION OF RADIO - NEW PRODUCT.",
+        "subtitle": "The next generation of radio technology, delivering superior sound quality, enhanced signal range, and cutting-edge features for seamless communication. Experience innovation and performance redefined for modern users.",
+        "btn": "Read more",
+        "color": "#D5D7D5",
+        "promo":"New",
+        "image": "/images/infografik.png",
+        "bgImage": "/images/home_radio.png",
+        "neuBgImage": "/images/desert.png"
+      },
+   
+      {
+        "id": 2,
+        "title": "BUILDING AUTOMATION AND SECURITY.",
+        "subtitle": "The world's first KNX connection (plug-in) for networking products from the Axis Communications company.",
+        "btn": "Discover",
+        "color": "#E9E8E9",
+        "promo":"",
+        "image": "/images/camera.png",
+        "bgImage": "/images/home_security.png",
+        "neuBgImage": "/images/house.png"
+      }
+    ]
+  },
+  
+  "Products":{
+    "title": "Featured Products",
+    "subtitle": "Our product assortment for your Smart Home.",
+    "allProducts": [
+      {
+        "id": 0,
+        "title": "SMART CONNECT series",
+        "subtitle": "With our SMART CONNECT series, we integrate a lot of systems into KNX, including the Sonos sound systems, Philips Hue lights and Vaillant heating systems, for example.",
+        "image": "/images/smart_solar.png",
+        "color": "bg-gradient-to-r from-[#a9a18e54] via-[#ded8c566] to-[#d1c8b259]",
+
+        "productsArray": [
+          {
+            "id": 0,
+            "title": "SMART CONNECT KNX Remote Access",
+            "subtitle": "With our SMART CONNECT series, we integrate a lot of systems into KNX...",
+            "image": "/images/csm.png"
+          },
+          {
+            "id": 1,
+            "title": "SMART CONNECT KNX e-charge II",
+            "subtitle": "With our SMART CONNECT series, we integrate a lot of systems into KNX...",
+            "image": "/images/csm.png"
+          },
+          {
+            "id": 2,
+            "title": "SMART CONNECT KNX Sonos",
+            "subtitle": "With our SMART CONNECT series, we integrate a lot of systems into KNX...",
+            "image": "/images/csm.png"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "KNX RF Multi",
+        "subtitle": "Discover the next generation of KNX radio with the KNX RF Multi products.",
+        "image": "/images/home_repeater.png",
+        "color": "bg-gradient-to-r from-[#a9a18e54] via-[#ded8c566] to-[#d1c8b259]",
+        "productsArray": [
+          {
+            "id": 0,
+            "title": "KNX RF Multi USB interface",
+            "subtitle": "With our SMART CONNECT series, we integrate a lot of systems into KNX...",
+            "image": "/images/knx_key.jpg"
+          },
+          {
+            "id": 1,
+            "title": "KNX RF Multi radiator thermostat",
+            "subtitle": "With our SMART CONNECT series, we integrate a lot of systems into KNX...",
+            "image": "/images/knx_heater.jpg"
+          },
+          {
+            "id": 2,
+            "title": "KNX RF Multi/TP media coupler or RF repeater",
+            "subtitle": "With our SMART CONNECT series, we integrate a lot of systems into KNX...",
+            "image": "/images/infografik.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "SMART APP KNX Axis",
+        "subtitle": "With our SMART APP KNX series, we integrate a host of different systems into the KNX, such as network devices from the Axis Communications company.",
+        "image": "/images/home_camera.png",
+        "color": "bg-gradient-to-r from-[#a9a18e54] via-[#ded8c566] to-[#d1c8b259]",
+        "productsArray": [
+          {
+            "id": 0,
+            "title": "SMART APP KNX Axis",
+            "subtitle": "With our SMART APP KNX series, we integrate a host of different systems into the KNX....",
+            "image": "/images/camera.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  "Building":{
+    "title": "Building automation",
+    "subtitle": "We network the world with KNX."    
+  },
+
+  "Explore":{
+    "title": "Explore our services",
+    "servicesArray": [
+      {
+        "id": 0,
+        "title": "Software",
+        "subtitle": "Our experts develop individual software solutions for your requirements.",
+        "btn": "Discover",
+        "image": "/images/software_groupe.png"
+      },
+      {
+        "id": 1,
+        "title": "Electronics",
+        "subtitle": "We always provide you with holistic solutions and a portfolio of services from a single source.",
+        "btn": "Learn more",
+        "image": "/images/electronic.png"
+      }
+    ]
+  },
+
+ 
+   "Partners":{
+    "title": "We are trusted by some of the best brands",
+    "partners": [
+      {
+        "id":0,
+        "image":"/images/MSGoldPartner.png"
+      },
+      {
+        "id":1,
+        "image":"/images/linux.png"
+      },
+      {
+        "id":2,
+        "image":"/images/KNX.png"
+      },
+      {
+        "id":3,
+        "image":"/images/Axis.png"
+      }
+    ]
+   },
+
+   "JobOffers":{
+    "title": "Cool place to work",
+    "subtitle": "We are always looking for Linux freaks, Windows disciples, app tinkerers, native native speakers of C++ and many other talents.",
+    "btn": "Job offers",
+    "image": "/images/jobSearch.png"
+   },
+   "NewsLetter":{
+    "title": "News letter",
+    "subtitle": "With the ise NEWSLETTER you are up to date about new features and changes.",
+    "placeholder": "Enter your email",
+    "btn": "Sign up"
+   },
+   "Support":{
+    "title":"ise Support",
+    "customerTitle": "Customer Support",
+    "customerSubtitle": "Contact us via email, and phone call",
+    "warrantyTitle": "Warranty",
+    "warrantySubtitle": "Warranty and protection is provided",
+    "userTitle": "User Guides",
+    "userSubtitle": "Download your Ise product user guide",
+    "fagTitle": "FAQ",
+    "fagSubtitle": "Search for help and answers about Ise"
+
+    },
+  
+    "Footer":{
+      "image": "/images/iseLogo.png",
+      "title": "Individuelle Software and Electronic GmbH",
+      "aboutUs": "ABOUT US",
+      "products": "Our Products",
+      "services": "ISE Services",
+      "follow": "FOLLOW US",
+      "emailTitle": "Enter your email adresses to subscribe to our newsletter",
+      "placeholder": "Enter your email",
+      "btn": "Subscribe",
+      "contact": "CONTACT US",
+      "contactSubtitle": "Osterstraße 15 26122 Oldenburg Germany",
+      "consultation": "Consultation and sales",
+      "General": "General office",
+      "copyright": "Copyright © 2024 ISE. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "imprint": "Imprint",
+      "support": "Support",
+      "terms":"Terms and Conditions"
+    },
+
+    
+      "Search": {
+        "search": "Search",
+        "placeholder": "Search",
+        "btn": "Search",
+        "close": "Close",
+        "results": "Results",
+        "noResults": "No results found",
+        "noResultsFound": "No results found",
+        "noResultsFoundFor": "No results found for",
+        "noResultsFoundForProduct": "No results found for product",
+        "noResultsFoundForCategory": "No results found for category"
+      }
+    
+
+  
+  }

@@ -1,0 +1,445 @@
+{
+   "Home": {"hello": "Hallo",
+    "welcome": "Willkommen auf meiner app"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+  },
+ "LanguageSwitcher": {
+      "switchTo": "Switch to {locale}"
+    },
+  "button": {
+    "readMore": "Mehr lesen",
+    "learnMore": "Mehr erfahren",
+    "contactUs": "Kontaktiere uns",
+    "download": "Herunterladen",
+    "getStarted": "Los geht's",
+    "jobOffers": "Stellenangebote",
+    "applyNow": "Jetzt bewerben",
+    "signUp": "Registrieren",
+    "subscribe": "Abonnieren"
+  },
+  
+    "Nav": {
+      "nav": [
+        {
+          "id": 0,
+          "title": "Produkte",
+          "path": "/products",
+          "subNav": [
+            {
+              "id": 0,
+              "title": "SMART CONNECT Serie",
+              "path": "/smart-connect-serie"
+            },
+            {
+              "id": 1,
+              "title": "SMART APP KNX serie",
+              "path": "/smart-app-knx-serie"
+            },
+            {
+              "id": 2,
+              "title": "KNX RF",
+              "path": "/knx-rf"
+            },
+            {
+              "id": 3,
+              "title": "Ise CO2 Ampel",
+              "path": "/ise-co2-ampel"
+            },
+            {
+              "id": 4,
+              "title": "Bezugsquelle",
+              "path": "/bezugsquelle"
+            },
+            {
+              "id": 5,
+              "title": "Archiv",
+              "path": "/archiv"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Dienstleistungen",
+          "path": "/services",
+          "subNav": [
+            {
+              "id": 0,
+              "title": "Softwareentwichung",
+              "path": "/softwareentwichung"
+            },
+            {
+              "id": 1,
+              "title": "Elektronikentwicklung",
+              "path": "/electronikentwicklung"
+            },
+            {
+              "id": 2,
+              "title": "Gebäudeautomatisierung",
+              "path": "/gebaeudeautomatisierung"
+            },
+            {
+              "id": 3,
+              "title": "Fertigung und Vertrieb",
+              "path": "/fertigung-und-vertrieb"
+            },
+            {
+              "id": 4,
+              "title": "Zufriedene Kunden",
+              "path": "/zufriedene-kunden"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Unternehmen",
+          "path": "/company",
+          "subNav": [
+            {
+              "id": 0,
+              "title": "Ise",
+              "path": "/ise"
+            },
+            {
+              "id": 1,
+              "title": "Unternemenskultur",
+              "path": "/unternemenskultur"
+            },
+            {
+              "id": 2,
+              "title": "Agilität und Qualität",
+              "path": "/agilität-und-qualität"
+            },
+            {
+              "id": 3,
+              "title": "Partner und Zertifikate",
+              "path": "/partner-und-zertifikate"
+            },
+            {
+              "id": 4,
+              "title": "Meilensteine",
+              "path": "/meilensteine"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Karriere",
+          "path": "/careers",
+          "subNav": [
+            {
+              "id": 0,
+              "title": "Stellenangebote",
+              "path": "/stellen-angebote"
+            },
+            {
+              "id": 1,
+              "title": "Ausbildung und Studium",
+              "path": "/ausbildung-und-studium"
+            },
+            {
+              "id": 2,
+              "title": "Famillienfreundlichkeit",
+              "path": "/famillienfreundlichkeit"
+            },
+            {
+              "id": 3,
+              "title": "Mitarbeiterangebote",
+              "path": "/mitarbeiterangebote"
+            },
+            {
+              "id": 4,
+              "title": "Leben in Oldenburg",
+              "path": "/leben-in-oldenburg"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Nachrichten",
+          "path": "/news",
+          "subNav": [
+            {
+              "id": 0,
+              "title": "Produktnews",
+              "path": "/produktnews"
+            },
+            {
+              "id": 1,
+              "title": "Unternemensnews",
+              "path": "/unternemensnews"
+            },
+            {
+              "id": 2,
+              "title": "Veranstaltungen",
+              "path": "/veranstaltungen"
+            },
+            {
+              "id": 3,
+              "title": "Newsletter",
+              "path": "/newsletter"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Service",
+          "path": "/service",
+          "subNav": [
+            {
+              "id": 0,
+              "title": "Support",
+              "path": "/support"
+            },
+            {
+              "id": 1,
+              "title": "Downloads",
+              "path": "/downloads"
+            },
+           
+            {
+              "id": 2,
+              "title": "Kundeninterviews",
+              "path": "/kundeninterviews"
+            },
+            {
+              "id": 3,
+              "title": "Webinare",
+              "path": "/webinare"
+            }
+          ]
+        }
+      ]
+    },
+
+    
+  
+
+  "TopBar": {
+    "won": "WIR HABEN GEWONNEN!",
+    "smart": "Smart Home DEUTSCHLAND Award 2024",
+    "button": "Mehr lesen"
+  },
+  "BannerCarousel": {
+    
+    "carousel":[
+      {
+        "id": 0,
+        "title": "NEUES UPDATE: FERNZUGRIFF NOCH BESSER.",
+        "subtitle": "Die neueste Fernzugriffslösung bietet eine erhöhte Sicherheit, eine nahtlose Konnektivität und benutzerfreundliche Schnittstellen, die eine effiziente Verwaltung von Geräten und Systemen von überall ermöglichen. Erfahren Sie die Zuverlässigkeit und Leistung wie noch nie zuvor.",
+        "btn": "Entdecken",
+        "color": "#E3E2DE",
+        "promo":"Update",
+        "image": "/images/csm.png",
+        "bgImage": "/images/car_charger.png",
+         "neuBgImage": "/images/car.png"
+      },
+      {
+        "id": 1,
+        "title": "DIE NÄCHSTE GENERATION VON RADIO - NEUES PRODUKT.",
+        "subtitle": "Die nächste Generation von Radiotechnologie, die eine überlegene Klangqualität, eine erweiterte Signalreichweite und innovative Funktionen für eine nahtlose Kommunikation bietet. Erfahren Sie die Innovation und Leistung neu definiert für moderne Nutzer.",
+        "btn": "Mehr erfahren",
+        "color": "#D5D7D5",
+        "promo":"Neu",
+        "image": "/images/infografik.png",
+        "bgImage": "/images/home_radio.png",
+        "neuBgImage": "/images/desert.png"
+      },
+      {
+        "id": 2,
+        "title": "GEBAUTENAUTOMATISIERUNG UND SICHERHEIT.",
+        "subtitle": "Die weltweit erste KNX-Verbindung (Plug-in) für Netzwerkprodukte des Unternehmens Axis Communications.",
+        "btn": "Entdecken",
+        "color": "#E9E8E9",
+        "promo":"",
+        "image": "/images/camera.png",
+        "bgImage": "/images/home_security.png",
+        "neuBgImage": "/images/house.png"
+      }
+    ]
+  },
+  "Products": {
+    "title": "Vorgestellte Produkte",
+    "subtitle": "Unser Produktangebot für Ihr Smart Home.",
+    "allProducts": [
+      {
+        "id": 0,
+        "title": "SMART CONNECT Serie",
+        "subtitle": "Mit unserer SMART CONNECT Serie integrieren wir viele Systeme in KNX, einschließlich der Sonos-Soundsysteme, Philips Hue-Lampen und Vaillant-Heizsysteme, zum Beispiel.",
+        "image": "/images/smart_solar.png",
+        "color": "bg-gradient-to-r from-[#a9a18e54] via-[#ded8c566] to-[#d1c8b259]",
+        "productsArray": [
+          {
+            "id": 0,
+            "title": "SMART CONNECT KNX Fernzugriff",
+            "subtitle": "Mit unserer SMART CONNECT Serie integrieren wir viele Systeme in KNX...",
+            "image": "/images/csm.png"
+          },
+          {
+            "id": 1,
+            "title": "SMART CONNECT KNX e-charge II",
+            "subtitle": "Mit unserer SMART CONNECT Serie integrieren wir viele Systeme in KNX...",
+            "image": "/images/csm.png"
+          },
+          {
+            "id": 2,
+            "title": "SMART CONNECT KNX Sonos",
+            "subtitle": "Mit unserer SMART CONNECT Serie integrieren wir viele Systeme in KNX...",
+            "image": "/images/csm.png"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "KNX RF Multi",
+        "subtitle": "Entdecken Sie die nächste Generation von KNX-Radio mit den KNX RF Multi-Produkten.",
+        "image": "/images/home_repeater.png",
+        "color": "bg-gradient-to-r from-[#a9a18e54] via-[#ded8c566] to-[#d1c8b259]",
+        "productsArray": [
+          {
+            "id": 0,
+            "title": "KNX RF Multi USB-Schnittstelle",
+            "subtitle": "Mit unserer SMART CONNECT Serie integrieren wir viele Systeme in KNX...",
+            "image": "/images/knx_key.jpg"
+          },
+          {
+            "id": 1,
+            "title": "KNX RF Multi Heizkörperventil",
+            "subtitle": "Mit unserer SMART CONNECT Serie integrieren wir viele Systeme in KNX...",
+            "image": "/images/knx_heater.jpg"
+          },
+          {
+            "id": 2,
+            "title": "KNX RF Multi/TP Medienkoppler oder RF-Repeater",
+            "subtitle": "Mit unserer SMART CONNECT Serie integrieren wir viele Systeme in KNX...",
+            "image": "/images/infografik.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "SMART APP KNX Axis",
+        "subtitle": "Mit unserer SMART APP KNX Serie integrieren wir eine Vielzahl von Systemen in KNX, wie z.B. Netzwerkgeräte von Axis Communications.",
+        "image": "/images/home_camera.png",
+        "color": "bg-gradient-to-r from-[#a9a18e54] via-[#ded8c566] to-[#d1c8b259]",
+        "productsArray": [
+          {
+            "id": 0,
+            "title": "SMART APP KNX Axis",
+            "subtitle": "Mit unserer SMART APP KNX Serie integrieren wir eine Vielzahl von Systemen in KNX....",
+            "image": "/images/camera.png"
+          }
+        ]
+      }
+    ]
+  },
+
+  
+    "Building": {
+      "title": "Gebäudeautomation",
+      "subtitle": "Wir vernetzen die Welt mit KNX."
+    },
+    "Explore":{
+      "title": "Entdecken Sie unsere Dienstleistungen",
+      "servicesArray": [
+        {
+          "id": 0,
+          "title": "Software",
+          "subtitle": "Unsere Experten entwickeln individuelle Softwarelösungen für Ihre Anforderungen.",
+          "btn": "Entdecken",
+          "image": "/images/software_groupe.png"
+        },
+        {
+          "id": 1,
+          "title": "Elektronik",
+          "subtitle": "Wir bieten Ihnen immer umfassende Lösungen und ein Dienstleistungsportfolio aus einer Hand.",
+          "btn": "Mehr erfahren",
+          "image": "/images/electronic.png"
+        }
+      ]
+    },
+    "Partners":{
+      "title": "Wir werden von einigen der besten Marken vertraut.",
+    "partners": [
+      {
+        "id":0,
+        "image":"/images/MSGoldPartner.png"
+      },
+      {
+        "id":1,
+        "image":"/images/linux.png"
+      },
+      {
+        "id":2,
+        "image":"/images/KNX.png"
+      },
+      {
+        "id":3,
+        "image":"/images/Axis.png"
+      }
+    ]
+   },
+   "JobOffers":{
+  "title": "Cooler Arbeitsplatz",
+  "subtitle": "Wir suchen immer nach Linux-Freaks, Windows-Jüngern, App-Tüftlern, Muttersprachlern von C++ und vielen anderen Talenten.",
+  "btn": "Stellenangebote",
+  "image": "/images/jobSearch.png"
+  },
+  "NewsLetter":{
+  "title": "Newsletter",
+  "subtitle": "Mit dem ise NEWSLETTER bleiben Sie über neue Funktionen und Änderungen auf dem Laufenden.",
+  "placeholder": "E-Mail-Adresse eingeben",
+  "btn": "Anmelden"
+},
+
+"Support":{
+  "title":"ise Support",
+  "customerTitle": "Kundensupport",
+  "customerSubtitle": "Kontaktieren Sie uns per E-Mail und Telefon",
+  "warrantyTitle": "Garantie",
+  "warrantySubtitle": "Garantie und Schutz werden geboten",
+  "userTitle": "Benutzerhandbücher",
+  "userSubtitle": "Laden Sie das Benutzerhandbuch für Ihr Ise-Produkt herunter",
+  "fagTitle": "FAQ",
+  "fagSubtitle": "Suchen Sie nach Hilfe und Antworten zu Ise"
+},
+
+"Footer":{
+  "image": "/images/iseLogo.png",
+  "title": "Individuelle Software und Elektronik GmbH",
+  "aboutUs": "ÜBER UNS",
+  "products": "Unsere Produkte",
+  "services": "ISE Dienstleistungen",
+  "follow": "FOLGEN SIE UNS",
+  "emailTitle": "Geben Sie Ihre E-Mail-Adresse ein, um unseren Newsletter zu abonnieren",
+  "placeholder": "E-Mail-Adresse eingeben",
+  "btn": "Abonnieren",
+  "contact": "KONTAKTIEREN SIE UNS",
+  "contactSubtitle": "Osterstraße 15 26122 Oldenburg Deutschland",
+  "consultation": "Beratung und Verkauf",
+  "General": "Hauptgeschäftsstelle",
+  "copyright": "Copyright © 2024 ISE. Alle Rechte vorbehalten.",
+  "privacy": "Datenschutzrichtlinie",
+  "imprint": "Impressum",
+  "support": "Support",
+  "terms":"Allgemeine Geschäftsbedingungen"
+},
+
+"Search": {
+      "search": "Suche",
+      "placeholder": "Suche",
+      "btn": "Suche",
+      "close": "Schließen",
+      "results": "Ergebnisse",
+      "noResults": "Keine Ergebnisse gefunden",
+      "noResultsFound": "Keine Ergebnisse gefunden",
+      "noResultsFoundFor": "Keine Ergebnisse gefunden für",
+      "noResultsFoundForProduct": "Keine Ergebnisse gefunden für",
+      "noResultsFoundForCategory": "Keine Ergebnisse gefunden für"
+    }
+  
+  
+  
+}
