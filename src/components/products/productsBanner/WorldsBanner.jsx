@@ -10,7 +10,7 @@ const WorldsBanner = ({products, index}) => {
   const btn = useTranslations('button')
  
   return (
-    <div id='worlds'  className="w-full  h-full py-8  ">
+    <div id={`${products.title}`}  className="w-full  h-full py-8  ">
       <div  className={` ${products.id === 1 || products.id === 2 ? " border-t-[.5px] border-[#3C4448] border-dotted  py-16 w-full grid place-items-center place-content-center gap-2 mt-8 md:mt-0 h-full":"py-16 w-full grid place-items-center place-content-center gap-2 mt-8 md:mt-0 h-full"}`} >
         <h1 className="text-[#3C4448] text-[1.5rem] text-center md:text-[2.5rem] font-bold">
             {products.title}
@@ -18,7 +18,7 @@ const WorldsBanner = ({products, index}) => {
         <p className="text-[#3C4448] text-[.875rem] text-center md:text-[1.15rem]">
            {products.subtitle.slice(0, 50)}...
         </p>
-        <Link href="#worlds" className="bg-[#121616] hover:bg-[#3C4448] md:mt-4 px-3 py-2 text-xl md:text-2xl text-gray-50 rounded-md">
+        <Link href={`#${products.title}`} className="bg-[#121616] hover:bg-[#3C4448] md:mt-4 px-3 py-2 text-xl md:text-2xl text-gray-50 rounded-md">
            {btn('learnMore')}
         </Link>
       </div>

@@ -69,7 +69,7 @@ const Products = () => {
                                             <h1 className=" text-[#3C4448] text-center text-[1.25rem] md:text-[1.875rem] font-bold">{theProducts[0].title}</h1>
                                             <p className=" text-[#3C4448] leading-6 text-center text-sm md:text-[1rem] font-thin">{theProducts[0].subtitle}</p>
                                             <div className="w-full group-hover:flex justify-center items-center hidden transition-flex ease-in-out duration-300  mt-2 md:mt-5 ">
-                                            <button  className=" text-[.75rem] md:text-[1rem]  hover:scale-105 hover:ml-1 transition-all duration-200 ease-in bg-[#3C4448] font-semibold border-2 hover:border-[#f39900]  text-[#f0f0ef] hover:bg-transparent   hover:text-[#f39900] float-center md:float-start  px-4 py-2 rounded-md"  onClick={() => handleAllProducts(theProducts[product.id] )}> {btn('learnMore')} </button>
+                                            <Link href={`#/${theProducts[0].title} `}  className=" text-[.75rem] md:text-[1rem]  hover:scale-105 hover:ml-1 transition-all duration-200 ease-in bg-[#3C4448] font-semibold border-2 hover:border-[#f39900]  text-[#f0f0ef] hover:bg-transparent   hover:text-[#f39900] float-center md:float-start  px-4 py-2 rounded-md"  onClick={() => handleAllProducts(theProducts[product.id] )}> {btn('learnMore')} </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ const Products = () => {
                                             <h1 className=" text-[#3C4448] text-center text-[1.25rem] md:text-[1.875rem] font-bold">{product.title}</h1>
                                             <p className=" text-[#3C4448] leading-6 text-center text-sm md:text-[1rem] font-thin">{product.subtitle}</p>
                                             <div className="w-full group-hover:flex justify-center items-center hidden transition-flex ease-in-out duration-300  mt-2 md:mt-5 ">
-                                            <button  className=" text-[.75rem] md:text-[1rem]  hover:scale-105 hover:ml-1 transition-all duration-200 ease-in bg-[#3C4448] font-semibold border-2 hover:border-[#f39900]  text-[#f0f0ef] hover:bg-transparent   hover:text-[#f39900] float-center md:float-start  px-4 py-2 rounded-md"  onClick={() => handleAllProducts(theProducts[product.id]  )}> {btn('learnMore')} </button>
+                                            <Link href={`#/${product.title} `} className=" text-[.75rem] md:text-[1rem]  hover:scale-105 hover:ml-1 transition-all duration-200 ease-in bg-[#3C4448] font-semibold border-2 hover:border-[#f39900]  text-[#f0f0ef] hover:bg-transparent   hover:text-[#f39900] float-center md:float-start  px-4 py-2 rounded-md"  onClick={() => handleAllProducts(theProducts[product.id]  )}> {btn('learnMore')} </Link>
                                         </div>
                                     </div>
                                 </div>

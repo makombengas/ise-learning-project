@@ -4,12 +4,13 @@ import Image from "next/image"
 
 const Product = ({product}) => {
   const btn = useTranslations('button')
+  console.log(product)
     
   return (
     <>
        {
            product.map((product) => (
-            <div key={product.id} className=" md:w-3/3 xl:w-2/3 flex flex-col justify-center items-center pb-8 md:pb-[8rem] group px-2 gap-4 ">
+            <div id={product.title} key={product.id} className=" md:w-3/3 xl:w-2/3 flex flex-col justify-center items-center pb-8 md:pb-[8rem] group px-2 gap-4 ">
         <Image width={500} height={500} src={product.image} className="w-full object-cover" alt="" />
         <h1 className=" text-[#3C4448] text-center text-[1rem] md:text-[1.25rem] xl:text-[1.5rem] font-bold">{product.title}</h1>
         <p className=" group-hover:hidden text-[#3C4448] leading-6 text-center text-sm md:text-[1rem] font-thin">{product.subtitle}</p>
